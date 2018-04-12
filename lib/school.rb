@@ -18,4 +18,7 @@ class School
   def grade(grade)
     @roster[grade]
   end
+  def sort(array)
+    array.sort {|x| x.sort}
+  end 
 end
