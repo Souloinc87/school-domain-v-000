@@ -20,5 +20,5 @@ class School
   end
   def sort(array)
     array.sort {|x| x.sort}
-  end 
+  end
 end
