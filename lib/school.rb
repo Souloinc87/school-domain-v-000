@@ -6,7 +6,7 @@ class School
     @school = school
     puts "#@school"
     roster = {}
-    binding pry
+  
   end
 
 end
