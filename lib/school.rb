@@ -18,7 +18,7 @@ class School
   def grade(grade)
     @roster[grade]
   end
-  def sort(array)
-    array.sort {|x| x.sort}
+  def sort
+    @roster.map {|key, value| value.sort}
   end
 end
