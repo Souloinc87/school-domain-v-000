@@ -1,4 +1,4 @@
-require 'pry'
+
 
 class School
 
@@ -6,7 +6,7 @@ class School
     @school = school
     puts "#@school"
     roster = {}
-  
+
   end
 
 end
