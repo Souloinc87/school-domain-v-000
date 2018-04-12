@@ -1,5 +1,5 @@
-# code here!
-#school = School.new("Bayside High School")
+require 'pry'
+
 class School
 
   def initialize(school)
